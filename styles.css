@@ -218,16 +218,16 @@ nav ul{
 /* form section */
 
 .form{
-    background-color: rgba(245, 248, 255, 1);
+
     display: flex;
-    gap: 115px;
+    justify-content: space-between;
     align-items: center;
     padding: 0px 150px 14px 150px;
     
 }
-.form-column{
+/* .form-column{
     width: 50%;
-}
+} */
 .form-header{
     font-size: 97px;
     font-weight: bold;
@@ -276,4 +276,30 @@ nav ul{
     box-sizing: border-box;
     border: none;
     font-weight: bold;
+}
+/* Footer section */
+.footer{
+    justify-items: center;
+    margin: 105px 455px;
+}
+
+.logo1{
+    color: #4E47ff;
+    font-size: 100px;
+    font-weight: 900;
+    
+}
+
+.footer-discription{
+    color: rgba(137, 135, 161, 1);
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.footer nav ul{
+    display: flex;
+    gap: 48px;
+    color: rgba(137, 135, 161, 1);
+    list-style: none;
 }
