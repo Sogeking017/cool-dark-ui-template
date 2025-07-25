@@ -18,6 +18,13 @@
     font-weight: bold;
     border-radius: 10px;
     border: none;
+    
+}
+.button:hover {
+    background-color: #3c35cc; 
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(111, 85, 255, 0.6);     
+    cursor: pointer;
 }
 
 
