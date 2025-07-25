@@ -212,3 +212,61 @@ nav ul{
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
 }
+/* form section */
+
+.form{
+    
+    display: flex;
+    gap: 115px;
+    align-items: center;
+    margin: 0px 150px 14px 150px;
+    padding: 71px 0px;
+}
+.form-column{
+    width: 50%;
+}
+.form-header{
+    font-size: 97px;
+    font-weight: bold;
+    
+}
+.form-info form label{
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+.form-info form input[type="text"], input[type="email"]{
+    display: block;
+    width: 497px;
+    height: 70px;
+    font-size: 20px;
+    padding: 20px 32px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: solid rgba(214, 221, 237, 1);
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+}
+.form-info form textarea{
+    display: block;
+    width: 497px;
+    height: 135px;
+    font-size: 20px;
+    padding: 20px 32px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: solid rgba(214, 221, 237, 1);
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+}
+.form-info form input[type="submit"]{
+    display: block;
+    width: 497px;
+    height: 62px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: none;
+}
