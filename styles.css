@@ -34,7 +34,9 @@
 
 }
 
-
+.common-bg{
+    background-color: rgba(245, 248, 255, 1);
+}
 /* First page */
 *{
     margin: 0;
@@ -86,9 +88,9 @@ nav ul{
     gap: 220px;
     align-items: center;
     justify-content: space-between;
-    margin-top: 116px;
-    margin-left: 141px;
-    margin-right: 159px;
+    padding-top: 116px;
+    padding-left: 141px;
+    padding-right: 159px;
 }
 .action-img{
     border-radius: 48px;
@@ -187,7 +189,8 @@ nav ul{
 }
 
 /* Focus Better section */
-.focus-better{
+
+.focus-better-box{
     background-color: rgba(255, 255, 255, 1);
     border-radius: 14px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -215,12 +218,12 @@ nav ul{
 /* form section */
 
 .form{
-    
+    background-color: rgba(245, 248, 255, 1);
     display: flex;
     gap: 115px;
     align-items: center;
-    margin: 0px 150px 14px 150px;
-    padding: 71px 0px;
+    padding: 0px 150px 14px 150px;
+    
 }
 .form-column{
     width: 50%;
@@ -228,12 +231,15 @@ nav ul{
 .form-header{
     font-size: 97px;
     font-weight: bold;
+    padding: 71px 0px;
     
 }
 .form-info form label{
     font-size: 18px;
-    font-weight: 500;
-    
+    font-weight: 600;
+}
+.form-info{
+    padding: 71px 0px;
 }
 .form-info form input[type="text"], input[type="email"]{
     display: block;
@@ -269,4 +275,5 @@ nav ul{
     border-radius: 10px;
     box-sizing: border-box;
     border: none;
+    font-weight: bold;
 }
